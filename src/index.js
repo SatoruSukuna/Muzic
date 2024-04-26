@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Tarun from './Tarun';
+import Tryit from './tryit';
+import Create from "./htmlpr"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Tarun />
+    <Tryit />
+    <Create />
   </React.StrictMode>
 );
 
